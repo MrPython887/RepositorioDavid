@@ -12,8 +12,8 @@ def ler_ficheiro(nome_arquivo):
 def ordenar_bubblesort(dados):
     n = len(dados)
     for i in range(n):
-        for j in range(n - i - 1):
-            if int(dados[j][1]) > int(dados[j + 1][1]):
-                dados[j], dados[j + 1] = dados[j + 1], dados[j]
+        for k in range(n - i - 1):
+            if int(dados[k][1]) > int(dados[k + 1][1]):
+                dados[k], dados[k + 1] = dados[k + 1], dados[k]
     return dados
-
+def grafico_barras()
