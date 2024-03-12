@@ -28,7 +28,7 @@ for letra in palavra:
          ganhou = False    
 
 if tentativas == 0 or ganhou:
-
+     
     break
 
 if ganhou:
